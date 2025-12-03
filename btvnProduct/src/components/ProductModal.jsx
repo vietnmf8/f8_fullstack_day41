@@ -7,11 +7,11 @@ import {
     DialogFooter,
     DialogHeader,
     DialogTitle,
-} from "../ui/dialog";
-import { Label } from "../ui/label";
-import { Input } from "../ui/input";
-import { Button } from "../ui/button";
-import { Textarea } from "../ui/textarea";
+} from "./ui/dialog";
+import { Label } from "./ui/label";
+import { Input } from "./ui/input";
+import { Button } from "./ui/button";
+import { Textarea } from "./ui/textarea";
 
 function ProductModal({ open, onClose, onSubmit, initialData, title }) {
     /* ==========================================================
